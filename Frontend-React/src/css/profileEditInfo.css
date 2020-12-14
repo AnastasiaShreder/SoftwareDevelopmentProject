@@ -1,0 +1,154 @@
+/* Общие стили */
+.profile-edit{
+    display:flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 90%;
+    margin-left: 9.06%;
+    margin-right: 9.06%;
+    margin-top: 24px;
+}
+
+.profile-edit__main-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Аватарка */
+.profile-edit__avatar{
+    display: block;
+    justify-content: center;
+    margin: auto 0;
+    position: relative;
+}
+.profile-edit__avatar__add{
+    position: absolute;
+    left: 57.39%;
+    right: 16.48%;
+    top: 53.49%;
+    bottom: 19.77%;
+}
+
+/* Блок основной информации */
+.person-info{
+    margin-top: 3%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    color: #032539;
+}
+
+.person-info__column-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.person-info__column-2{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.input-field{
+    font-size: 27px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.input-info-1{
+    margin-left: 130px;
+}
+.input-info-2{
+    margin-left: 40px;
+}
+.input-info-3{
+    margin-left: 40px;
+}
+.input-info-4{
+    margin-left: 135px;
+}
+.input-info-5{
+    margin-left: 35px;
+}
+
+.input-info{
+    border: 1px solid #1C768F;
+    background: #FBF3F2;
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(141, 137, 137, 0.5);
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 1%;
+
+    outline: none;
+}
+
+.hello-message{
+    margin-left: 11%;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 3%;
+
+    color: #032539;
+}
+
+.message-field{
+    border: 1px solid #1C768F;
+    background: #FBF3F2;
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(141, 137, 137, 0.5);
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 1%;
+    height: 30%;
+    margin-left: 5%;
+    width: 80%;
+
+    outline: none;
+}
+
+/* Радио-кнопки */
+.profile-edit__radio input[type=radio] {
+    display: none;
+}
+
+.profile-edit__radio label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 50px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    user-select: none;
+}
+.profile-edit__radio label:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(./images/profile/unchecked.svg) 0 0 no-repeat;
+}
+
+/* Checked */
+.profile-edit__radio input[type=radio]:checked + label:before {
+    background: url(./images/profile/checked.svg) 0 0 no-repeat;
+}
+
+/* Hover */
+.profile-edit__radio label:hover:before {
+    filter: brightness(120%);
+}

@@ -1,0 +1,84 @@
+.msg__container{
+    height: 130px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.msg__frame-icon-left{
+    float: left;
+    margin-left: 0;
+    position: absolute;
+}
+
+.msg__details{
+    padding-left: 3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.msg__user-name-container{
+    width: 60%;
+    margin-top: 5px;
+    height: auto;
+}
+
+.msg__test-name{
+    font-weight: bold;
+    font-size: 25px;
+    color: #1C768F;
+}
+
+.msg__last-test-container{
+    margin-top:25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.msg__text-author{
+    font-weight: normal;
+    font-size: 25px;
+    color: #032539;
+    display:inline-block;
+    opacity: 0.5;
+}
+
+.msg__test-content{
+    font-size: 25px;
+    color: #032539;
+    margin-right: 8%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.msg__unread-indicator{
+    height: fit-content;
+    width: fit-content;
+    margin-top: 40px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse{
+    float: right;
+}
+
+.msg__unread-number{
+    position: absolute;
+    color: #FBF3F2;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.msg__frame-icon-right{
+    position: absolute;
+    right:10%;
+}

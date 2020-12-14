@@ -1,0 +1,29 @@
+.profile__avatar{
+    display: block;
+    justify-content: center;
+    margin: 3% auto;
+}
+
+.profile__name{
+    color: #032539;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bold;
+}
+
+.profile__fio{
+    font-size: 40px;
+}
+
+.profile__membership{
+    margin-bottom: 2.2%;
+    font-size: 20px;
+
+    color: #1C768F;
+}
+
+.post{
+    color: #1C768F;
+}

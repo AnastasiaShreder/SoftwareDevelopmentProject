@@ -1,0 +1,59 @@
+
+.profile__university{
+    font-size: 22px;
+}
+
+
+/* -----------Список предлагаемых услуг----------- */
+.suggestion{
+    font-size: 30px;
+    margin-left: 3%;
+    color: #1C768F;
+}
+.services{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-bottom: 5.4%;
+}
+
+
+/* ---------Кнопка "отправить заявку"--------------*/
+.profile__sending{
+    height: 5.3%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    padding: 9px 19px 9px 19px;
+    background: #FBF3F2;
+    border: 2px solid #1C768F;
+    border-radius: 50px;
+    color: #FA991C;
+    float: right;
+    margin-left: 85%;
+}
+
+
+/* -----------ОФормление перечисления----------- */
+.services__enum{
+    padding-left: 18px;
+    padding-bottom: 15px;
+    list-style-image: url(./images/profile/enum.svg);
+}
+
+/* -----------------Адаптив---------------- */
+@media (max-width: 1682px){
+    .profile__sending{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1100px){
+    .profile__sending{
+        font-size: 16px;
+    }
+}
+

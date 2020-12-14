@@ -1,0 +1,30 @@
+.interests-list{
+    margin-left: 11%;
+    font-weight: 700;
+    font-size: 27px;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.interests-table{
+    width: 83%;
+    margin-left: 3%;
+    border-collapse: collapse;
+    margin-bottom: 3%;
+}
+
+.interests-table__row{
+    width: 90%;
+    border-bottom: 1px solid #FA991C ;
+    text-align: center;
+    font-size: 22px;
+    padding: 1%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.interests-list__add-icon{
+    position: absolute;
+    margin-right: 91%;
+    margin-top: 0.5%;
+}

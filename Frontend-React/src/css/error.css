@@ -1,0 +1,5 @@
+.error {
+    display: none;
+    font-size: .8em;
+    color: rgb(246, 0, 0);
+}

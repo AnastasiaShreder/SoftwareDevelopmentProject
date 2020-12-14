@@ -1,0 +1,16 @@
+.navigation{
+    position: sticky;
+    top: 0;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: none;
+    height: 100%;
+    width: 8%;
+}
+
+.icon{
+    margin-top: 20%;
+}

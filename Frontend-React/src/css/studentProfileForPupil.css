@@ -1,0 +1,87 @@
+
+.profile__university{
+    font-size: 22px;
+}
+
+
+.services{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-bottom: 5.4%;
+    text-align: left;
+}
+
+.profile__services {
+
+}
+
+.suggestion{
+    font-size: 30px;
+    margin-left: 3%;
+    color: #1C768F;
+    font-weight: bold;
+}
+
+.profile__radio input[type=radio] {
+    display: none;
+}
+
+.profile__radio label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 50px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    user-select: none;
+}
+.profile__radio label:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(./images/profile/unchecked.svg) 0 0 no-repeat;
+}
+
+/* Checked */
+.profile__radio input[type=radio]:checked + label:before {
+    background: url(./images/profile/checked.svg) 0 0 no-repeat;
+}
+
+/* Hover */
+.profile__radio label:hover:before {
+    filter: brightness(120%);
+}
+
+.profile__sending{
+    height: 5.3%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    padding: 9px 19px 9px 19px;
+    background: #FBF3F2;
+    border: 2px solid #1C768F;
+    border-radius: 50px;
+    color: #FA991C;
+    float: right;
+    margin-left: 85%;
+}
+
+@media (max-width: 1682px){
+    .profile__sending{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1100px){
+    .profile__sending{
+        font-size: 16px;
+    }
+}

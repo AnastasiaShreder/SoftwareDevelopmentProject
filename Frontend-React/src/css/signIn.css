@@ -1,0 +1,124 @@
+.signIn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 44em;
+    height: 35em;
+
+    font-size: 1em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.signIn__title {
+    font-size: 2em;
+    margin: .4em;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FA991C;
+}
+
+.signIn__title:before {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 85px;
+    transform: scale(-1, 1);
+    background-image: url("./images/duck_right.svg");
+}
+
+.signIn__title:after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 85px;
+    background-image: url("./images/duck_right.svg");
+}
+
+.signIn__form {
+    text-align: center;
+}
+
+.signIn__info {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1em;
+}
+
+.signIn__input {
+    font-family: inherit;
+    line-height: 1.25em;
+    text-transform: uppercase;
+
+    padding: .6em;
+    margin: 1em auto;
+
+    width: 21em;
+    height: 3em;
+
+    background: #FBF3F2;
+    border: 2px solid rgba(28, 118, 143, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3.3em;
+
+    outline: none;
+}
+
+.signIn__text,
+.signIn__signUp {
+    font-size: 1.25em;
+    line-height: 1.5em;
+
+    text-align: center;
+
+    color: #032539;
+}
+
+.signIn__signUp {
+    font-size: 1em;
+}
+
+
+@media (max-width: 990px) {
+    .signIn {
+        width: 40em;
+        height: 32em;
+    }
+
+    .signIn__title {
+        font-size: 1.8em;
+    }
+
+    .signIn__input {
+        width: 19em;
+        height: 2.7em;
+    }
+
+    .signIn__text {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 575px) {
+    .signIn {
+        width: 36em;
+        height: 28.8em;
+    }
+
+    .signIn__title {
+        font-size: 1.6em;
+    }
+
+    .signIn__input {
+        width: 17.1em;
+        height: 2.43em;
+    }
+
+    .signIn__text {
+        font-size: .99em;
+    }
+}

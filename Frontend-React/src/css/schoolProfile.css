@@ -1,0 +1,80 @@
+
+.profile__university{
+    font-size: 22px;
+}
+
+.profile__avatar__add{
+    position: absolute;
+    left: 57.39%;
+    right: 16.48%;
+    top: 53.49%;
+    bottom: 19.77%;
+}
+
+/* -----------Список предлагаемых услуг----------- */
+.suggestion{
+    font-size: 30px;
+    margin-left: 3%;
+    color: #1C768F;
+}
+
+.options{
+    margin-bottom: 2.5%;
+}
+
+/* ---------Кнопка "отправить заявку"--------------*/
+.profile__sending{
+    height: 5.3%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    padding: 9px 19px 9px 19px;
+    background: #FBF3F2;
+    border: 2px solid #1C768F;
+    border-radius: 50px;
+    color: #FA991C;
+    float: right;
+    margin-left: 85%;
+}
+
+
+
+/* -----------ОФормление перечисления----------- */
+.services__enum{
+    padding-left: 18px;
+    padding-bottom: 15px;
+    list-style-image: url(./images/profile/unchecked.svg);
+    font-weight: bold;
+}
+
+/* -----------------Адаптив---------------- */
+@media (max-width: 1682px){
+    .profile__sending{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1100px){
+    .profile__sending{
+        font-size: 16px;
+    }
+    .header__title{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px){
+    .footer{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 530px){
+    .footer{
+        font-size: 20px;
+    }
+    .header__title{
+        font-size: 15px;
+    }
+}

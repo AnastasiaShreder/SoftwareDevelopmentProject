@@ -1,0 +1,42 @@
+.btn {
+    font-size: 1.15em;
+    width: 14em;
+    height: 2.7em;
+
+    margin: 1em auto;
+
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+
+    text-transform: uppercase;
+
+    color: #FA991C;
+    background-color: #1C768F;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    filter: brightness(60%);
+}
+
+.btn:disabled:hover {
+    cursor: not-allowed;
+}
+
+.btn:hover {
+    background-color: #135060;
+}
+
+@media (max-width: 575px) {
+    .btn {
+        font-size: .99em;
+    }
+}

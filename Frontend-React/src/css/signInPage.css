@@ -1,0 +1,26 @@
+.signInPage {
+    color: #032539;
+    font-family: inherit;
+    font-size: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 90%;
+}
+
+.signInPage__btn {
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: 1em;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+}
+
+.signInPage__btn:hover {
+    color: #FA991C;
+}

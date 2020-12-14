@@ -1,0 +1,195 @@
+.signUp {
+    width: 60em;
+    height: 40em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+    padding: 2em;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.avatar {
+    background-image: url("https://placehold.it/100/FBF3F2");
+
+    width: 100px;
+    height: 100px;
+    border: 3px solid #FA991C;
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+    top: 5%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    outline: none;
+}
+
+.avatar:after {
+    position: absolute;
+    content: '';
+    bottom: 5px;
+    left: 71%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: -12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+
+    background-image: url("data:image/svg+xml,%3Csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M31.984 23C31.984 23.992 31.18 24.797 30.188 24.797H24.797V30.188C24.797 31.18 23.992 31.984 23 31.984C22.008 31.984 21.203 31.18 21.203 30.188V24.797H15.812C14.82 24.797 14.016 23.992 14.016 23C14.016 22.008 14.82 21.203 15.812 21.203H21.203V15.812C21.203 14.82 22.008 14.016 23 14.016C23.992 14.016 24.797 14.82 24.797 15.812V21.203H30.188C31.18 21.203 31.984 22.008 31.984 23Z' fill='%231C768F'/%3E%3Cpath d='M31.589 5.55201L29.264 4.5895C28.348 4.2097 27.912 3.1586 28.292 2.2418C28.672 1.3249 29.723 0.889205 30.64 1.2694L32.964 2.2321C33.881 2.612 34.316 3.66311 33.936 4.57991C33.558 5.49401 32.508 5.93301 31.589 5.55201Z' fill='%231C768F'/%3E%3Cpath d='M23 0C23.992 0 24.797 0.804498 24.797 1.7969C24.797 2.7893 23.992 3.5938 23 3.5938C12.275 3.5938 3.594 12.273 3.594 23C3.594 33.725 12.273 42.406 23 42.406C33.725 42.406 42.406 33.727 42.406 23C42.406 22.008 43.211 21.203 44.203 21.203C45.196 21.203 46 22.008 46 23C46 35.711 35.713 46 23 46C10.289 46 0 35.713 0 23C0 10.289 10.287 0 23 0Z' fill='%231C768F'/%3E%3Cpath d='M37.612 10.167L35.833 8.388C35.131 7.687 35.131 6.549 35.833 5.847C36.535 5.145 37.672 5.145 38.374 5.847L40.153 7.62599C40.855 8.32799 40.855 9.466 40.153 10.167C39.451 10.869 38.313 10.869 37.612 10.167Z' fill='%231C768F'/%3E%3Cpath d='M43.758 17.708C42.839 18.089 41.789 17.65 41.41 16.736L40.448 14.412C40.068 13.495 40.503 12.444 41.42 12.064C42.337 11.684 43.388 12.119 43.768 13.036L44.731 15.36C45.11 16.277 44.675 17.328 43.758 17.708Z' fill='%231C768F'/%3E%3C/svg%3E");
+}
+
+.avatar:hover:after {
+    filter: brightness(110%);
+}
+
+.avatar__upload {
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    z-index: 1000;
+
+    cursor: pointer;
+}
+
+.signUp__photo {
+    display: block;
+    margin: 0 auto;
+    width: 6.8em;
+    height: 6.8em;
+    border-radius: 50%;
+    border: 3px solid #FA991C;
+    cursor: pointer;
+}
+
+.signUp__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signUp__info {
+    display: flex;
+}
+
+.signUp__col {
+    flex: 1;
+    text-align: center;
+}
+
+.signUp__label {
+    text-align: left;
+    display: inline-block;
+    width: 7em;
+    color: #032539;
+}
+
+.signUp__input {
+    font-family: inherit;
+    line-height: 1.25em;
+
+    width: 15em;
+    height: 2em;
+
+    padding: 1em;
+
+    background: #FBF3F2;
+    border: 1px solid rgba(28, 118, 143, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 3.3em;
+
+    outline: none;
+}
+
+.signUp__roles {
+    margin: 2em 0 2em 11em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+}
+
+.signUp__radio {
+    margin-bottom: 1em;
+}
+
+.signUp__roleLabel {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 0;
+    line-height: 20px;
+    user-select: none;
+
+    color: #032539;
+}
+
+.signUp__roleLabel:before {
+    content: "";
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+
+    background: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15' cy='15' r='13' fill='%23FBF3F2' stroke='%23FA991C' stroke-width='4'/%3E%3C/svg%3E") 0 0 no-repeat;
+}
+
+.signUp__roleLabel:hover:before {
+    filter: brightness(110%);
+}
+
+.signUp__roleInput {
+    display: none;
+}
+
+.signUp__roleInput:checked + .signUp__roleLabel:before {
+    background: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15' cy='15' r='13' fill='%23FBF3F2' stroke='%23FA991C' stroke-width='4'/%3E%3Ccircle cx='15' cy='15' r='7' fill='%23FA991C'/%3E%3C/svg%3E") 0 0 no-repeat;
+}
+
+@media (max-width: 990px) {
+    .signUp {
+        width: 50em;
+    }
+
+    .signUp__roles {
+        margin: 2em 0 2em 9em;
+    }
+}
+
+@media (max-width: 575px) {
+    .signUp {
+        width: 25em;
+        height: auto;
+    }
+
+    .signUp__form {
+        flex-wrap: wrap;
+    }
+
+    .signUp__roles {
+        margin: 2em 0;
+    }
+}

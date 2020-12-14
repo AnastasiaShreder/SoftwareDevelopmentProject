@@ -1,0 +1,470 @@
+.highlighting{
+    color: #FA991C;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.a{
+    color: #1C768F;
+}
+
+.main-page{
+    max-width: 100%;
+    margin:0;
+    background: #FBF3F2;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.main-page__main{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    max-width: 100%;
+    max-height: 80%;
+    margin-left: 9.06%;
+    margin-right: 9.06%;
+    margin-top: 24px;
+}
+
+/* -----Оформление стрелок-------- */
+.arrows{
+    position: absolute;
+    margin-left: 32%;
+    margin-top: 2.5%
+}
+
+/* -------Блоки who-are-you------ */
+.who-are-you{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.who-are-yoy__if-you{
+    display: none;
+}
+
+.who-are-you__text-inside{
+    position: absolute;
+    line-height: 42px;
+    margin-top: 57px;
+    margin-left: 40px;
+    color: #FA991C;
+    font-size: 35px;
+    font-weight: 800;
+    text-shadow:#C17717 0 0 0.5px;
+}
+.who-are-you__circle{
+    max-width:220px;
+    display: flex;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 52%;
+    flex-wrap: wrap;
+}
+
+.who-are-you__school-pupil{
+    font-size: 22px;
+    width: 35%;
+    margin-top: 12%;
+    margin-left: 10%;
+}
+
+.who-are-you__student {
+    margin-bottom: 6.68%;
+    margin-left: 15%;
+    margin-top: -1%;
+    height: 30%;
+    font-size: 22px;
+    width: 30%;
+}
+
+.who-are-you__school-leaver {
+    margin-top: -5%;
+    margin-left: 65%;
+    height: 30%;
+    width: 35%;
+    font-size: 22px;
+}
+
+.who-are-you__title{
+    color: #FA991C;
+    font-size: 35px;
+    font-weight: 800;
+    text-shadow:#C17717 0 0 0.5px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+.enum{
+    padding-left: 18px;
+    padding-bottom: 15px;
+    list-style-image: url('./svg/dry_clean1.svg');
+}
+
+
+/* ---------------Блок с фичами----------------- */
+
+.row{
+    width:100%;
+    background-color: #1C768F;
+}
+
+.main-page__row{
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    height: 15.14%;
+}
+
+.requests{
+    text-align: center;
+    max-width: 22.4%;
+    font-size: 18px;
+}
+
+.shedule{
+    text-align: center;
+    max-width: 22.4%;
+    font-size: 18px;
+}
+
+.search{
+    text-align: center;
+    max-width: 22.4%;
+    font-size: 18px;
+}
+
+.row__requests{
+    margin-top: 1%;
+    margin-right: 80px;
+}
+
+.row__schedule{
+    margin-top: 40px;
+    margin-right: 80px;
+}
+
+.row__search{
+    margin-top: 40px;
+}
+
+.row__flex-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row__duck_1{
+    margin-top: 165px;
+    margin-right: 33px;
+    transform: scale(-1, 1)
+}
+
+.row__duck_2{
+    margin-top: 69px;
+    margin-left: 30px;
+}
+
+.title{
+    font-weight: 600;
+    color: #032539;
+    font-size: 30px;
+    padding: 0;
+    max-width: 100%;
+}
+
+.row__title_1{
+    background-image: url(./svg/underline-requests1.svg);
+    background-repeat:no-repeat;
+    background-size: 100% 0.45em;
+    background-position: 0 40%;
+    height: 85px;
+}
+
+.row__title-text-lower{
+    background-image: url(./svg/underline-requests2.svg);
+    background-repeat:no-repeat;
+    background-size: 130% 0.75em;
+    background-position: 0 160%;
+}
+.row__title_2{
+    background-image: url(./svg/underline-schedule.svg);
+    background-repeat:no-repeat;
+    background-size: 100% 0.5em;
+    background-position: 0 70%;
+    height:60px;
+}
+
+.row__title_3{
+    background-image: url(./svg/underline-search.svg);
+    background-repeat:no-repeat;
+    background-size: 100% 0.45em;
+    background-position: 0 70%;
+    height:60px;
+}
+.row__text-upper, .row__text-lower {
+    color: #FBF3F2;
+}
+
+/* ---------------Адаптив----------------- */
+@media (min-width:1850px){
+
+    .row__title-text-lower{
+        background-image: none !important;
+    }
+    .row__title_1{
+        background-size: 100% 0.58em;
+        background-position: 0 70%;
+        height: 60px;
+    }
+    .row__title_3{
+        background-size: 80% 0.58em;
+        background-position: bottom;
+        height: 45px;
+    }
+
+    .row__text-upper{
+        margin-top: 10px;
+    }
+    .row__requests{
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:1600px) and (max-width: 1849px){
+
+    .main-page__main{
+        margin-right: 5%;;
+    }
+    .arrows{
+        margin-left: 33%;
+        z-index:0;
+    }
+    .who-are-you__student{
+        margin-top: -5%;
+    }
+}
+
+@media (min-width:1425px) and (max-width: 1599px){
+
+    .main-page__main{
+        margin-right: 5%;;
+    }
+    .who-are-you__student{
+        width: 40%;
+    }
+    .who-are-you__school-leaver{
+        margin-top: -13%;
+    }
+}
+
+@media (min-width:1379px) and (max-width: 1424px){
+    .main-page__main{
+        margin-right: 5%;;
+    }
+    .who-are-you__student{
+        width: 40%;
+        margin-top: -5%;
+        margin-left: 20%;
+    }
+    .who-are-you__school-leaver{
+        margin-top: -13%;
+    }
+    .who-are-you__school-pupil{
+        width: 40%;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    .arrows{
+        margin-left: 30%;
+    }
+    .row__schedule-upper{
+        background-image: url(./svg/underline-requests2.svg);
+        background-repeat:no-repeat;
+        background-position: bottom;
+        height: 80px;
+        width: 100%;
+    }
+
+    .row__title_2{
+        background-image: url(./svg/schedule-short.svg);
+        background-repeat:no-repeat;
+        background-size: 70% 0.65em;
+        background-position: bottom;
+        height: 80px;
+        width: 100%;
+    }
+
+    .row__schedule{
+        margin-top: 20px;
+    }
+    .row__search{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+}
+
+/* -------------Без стрелок----------------- */
+
+
+@media (max-width: 1379px){
+    .arrows{
+        display: none;
+    }
+
+    .who-are-yoy__if-you{
+        display: initial;
+        font-size: 40px;
+        color: #1C768F;
+        font-weight: 900;
+        margin: auto;
+        margin-top: 3%;
+        border-bottom: 7px dashed;
+    }
+    .who-are-you__school-pupil{
+        width: 60%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .who-are-you__school-leaver{
+        margin: auto;
+        margin-bottom: 5%;
+        width: 60%;
+    }
+    .who-are-you__student{
+        margin: auto;
+        width: 60%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width:1341px) and (max-width: 1379px){
+
+    .row__schedule{
+        margin-top: 12px;
+        margin-right: 80px;
+    }
+
+    .row__search{
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+
+    .row__schedule-upper{
+        background-image: url(./svg/underline-requests2.svg);
+        background-repeat:no-repeat;
+        background-position: bottom;
+        height: 80px;
+        width: 100%;
+    }
+
+    .row__title_2{
+        background-image: url(./svg/schedule-short.svg);
+        background-repeat:no-repeat;
+        background-size: 70% 0.65em;
+        background-position: bottom;
+        height: 80px;
+        width: 100%;
+    }
+
+    .row__title_3{
+        background-image: url(./svg/underline-requests2.svg);
+        background-repeat: no-repeat;
+        background-size: 45% 0.65em;
+        background-position: bottom;
+        height: 80px;
+        width: 100%;
+    }
+
+    .row__search-upper{
+        background-image: url(./svg/schedule-short.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 80px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1257px) and (max-width: 1340px){
+
+    .row__schedule{
+        margin-top: 12px;
+        margin-right: 80px;
+    }
+
+    .row__search{
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+
+    .row__title_1{
+        background-image: url(./svg/underline-requests1.svg);
+        background-repeat:no-repeat;
+        background-size: 100% 0.45em;
+        background-position: bottom;
+        height: 75px;
+    }
+
+    .row__title-text-lower{
+        background-image: none;
+        background-repeat:no-repeat;
+        background-size: 130% 0.75em;
+        background-position: 0 160%;
+    }
+
+    .row__title-1-text-upper{
+        background-image: url(./svg/underline-requests2.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+        width: 100%;
+
+    }
+
+    .row__schedule-upper{
+        background-image: url(./svg/underline-requests2.svg);
+        background-repeat:no-repeat;
+        background-position: bottom;
+        height: 80px;
+        width: 100%;
+    }
+
+    .row__title_2{
+        background-image: url(./svg/schedule-short.svg);
+        background-repeat:no-repeat;
+        background-size: 70% 0.65em;
+        background-position: bottom;
+        height: 80px;
+        width: 100%;
+    }
+
+    .row__title_3{
+        background-image: url(./svg/underline-requests2.svg);
+        background-repeat: no-repeat;
+        background-size: 45% 0.65em;
+        background-position: bottom;
+        height: 80px;
+        width: 100%;
+    }
+
+    .row__search-upper{
+        background-image: url(./svg/schedule-short.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 80px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1256px){
+    .title{
+        font-size: 25px;
+    }
+}

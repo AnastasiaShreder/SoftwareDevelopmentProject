@@ -1,0 +1,39 @@
+.header{
+    width: 100%;
+    background: #1C768F;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.header__title{
+    display: block;
+    margin-left: 2.5%;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FA991C;
+    align-self: center;
+    text-decoration: none;
+    transition: color .5s linear;
+}
+
+.header__title:hover {
+    color: #032539;
+}
+
+.header__logo{
+    margin-left:1%;
+}
+
+.header-text__block{
+    height: 7.34%;
+    flex:1;
+    font-size: 24px;
+}
+
+.header-text__text{
+    margin:0 auto;
+}
+
