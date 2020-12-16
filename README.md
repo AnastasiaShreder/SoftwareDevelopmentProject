@@ -47,6 +47,6 @@
 
 Сборка: npm build
 
-Запуск: npmstart
+Запуск: npm start
 
-Запуск тестов: npmtest
+Запуск тестов: npm test
