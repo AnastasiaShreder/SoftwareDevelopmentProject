@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+html, body{
+    background:#FBF3F2;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    min-height: 97%;
+    max-height: 97%;
+    height: 97%;
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+    background-color: #FBF3F2;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #032539;
+}
+
+.requests_container{
+    min-height: 99%;
+    max-height: 99%;
+    height: 99%;
+}
+
+.switch{
+    margin: 30px auto 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    border: solid #032539;
+}
+.rectangle_active {
+    width: 170px;
+    font-size: 25px;
+    background-color: #032539;
+    color: #FBF3F2;
+    height: 120%;
+    text-align: center;
+}
+.rectangle_inactive {
+    height: 120%;
+    width: 170px;
+    color: #FBF3F2;
+    font-size: 25px;
+    background-color: #365E7D;
+    text-align: center;
+    text-decoration: underline #FBF3F2;
+}
+
+.container{
+    margin: 40px 5% 20px;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__lines-requests{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 100;
+}
+
+
+
+.rectangle-inactive{
+    background-color: #FA991C;
+    max-width: 5px;
+    min-width: 5px;
+    height: auto;
+    margin-bottom: 0;
+    flex:1;
+}
+
+.request__body-inactive{
+    margin-left: 10px;
+    flex:95;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.request__info-inactive{
+    color: #032539;
+    font-weight: normal;
+    font-size: 26px;
+    margin-top: 10px;
+    max-height: 30px;
+    display: flex;
+    flex:2;
+    flex-direction: row;
+}
+
+.request__theme-inactive{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #032539;
+    font-weight: normal;
+    flex:1;
+    height: 30px;
+}
+.request__sender-inactive{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex:1;
+    margin: 0 30px 0 auto;
+    text-align: right;
+    height: 30px;
+}
+
+.request__text-inactive{
+    font-size: 18px;
+    font-weight: normal;
+    color: #365E7D;
+    margin-right: 3%;
+    margin-top: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.expand-inactive{
+    flex: 4;
+    margin-bottom: 0;
+    margin-top: auto;
+    height: fit-content;
+}
+
+
+
+
+
+
+
+.rectangle-active{
+    background-color: #FA991C;
+    max-width: 5px;
+    min-width: 5px;
+    height: auto;
+    margin-bottom: 0;
+    flex:1;
+}
+
+.request__body-active{
+    margin-left: 10px;
+    flex:95;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.request__info-active{
+    color: #032539;
+    font-weight: normal;
+    font-size: 26px;
+    margin-top: 10px;
+    max-height: 30px;
+    display: flex;
+    flex:2;
+    flex-direction: row;
+}
+
+.request__theme-active{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #032539;
+    font-weight: normal;
+    flex:1;
+    height: 30px;
+}
+.request__sender-active{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex:1;
+    margin: 0 30px 0 auto;
+    text-align: right;
+    height: 30px;
+}
+
+.request__text-active{
+    font-size: 18px;
+    font-weight: normal;
+    color: #365E7D;
+    margin-right: 3%;
+    margin-top: 20px;
+}
+
+.request__options{
+    display: flex;
+    flex-direction: row;
+    flex: 100;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #032539;
+}
+
+.option_accept{
+    flex: 90;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.rectangle-accept{
+    background-color: #FBF3F2;
+    border: solid #FA991C;
+    float: right;
+    min-width: 200px;
+    text-align: center;
+    height: auto;
+}
+
+.option_reject{
+    flex: 10;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.rectangle-reject{
+    background-color: #FBF3F2;
+    border: solid #FA991C;
+    min-width: 200px;
+    text-align: center;
+    height: auto;
+}
+
+.expand-active{
+    flex: 4;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+
+.expand-icon{
+    display: block;
+    max-height: fit-content;
+    margin-bottom: 0;
+}
+

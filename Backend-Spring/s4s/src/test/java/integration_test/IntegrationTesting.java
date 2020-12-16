@@ -51,7 +51,6 @@ public class IntegrationTesting {
     private final static int EXPECTED_PORT = 8080;
 
     final String baseUrl = "http://localhost:"+ EXPECTED_PORT;
-
     TestRestTemplate restTemplate = new TestRestTemplate();
 
     private String jwt;

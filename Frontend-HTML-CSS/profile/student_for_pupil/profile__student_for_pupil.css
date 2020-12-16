@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+/* ---------------Общие стили-------------- */
+
+body, html{
+    background:#FBF3F2;
+    margin: 0; 
+    font-family: 'Montserrat Alternates', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    min-height: 100%;
+    height: 100%;
+}
+/* ---------------Навигация---------------- */
+.navigation{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: none;
+    height: 100%;
+    width: 8%;
+}
+
+.navigation__icon{
+    margin-top: 20%;
+}
+
+/* ---------------Шапка---------------- */
+.header{
+    width: 100%;
+    background: #1C768F;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.header__title{
+    display: block;
+    margin-left: 2.5%;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FA991C; 
+    align-self: center;
+}
+
+.header__logo{
+    margin-left:1%;
+    display: inline-block;
+}
+
+/* ---------------Имя и аватарка---------------------- */
+
+.profile__name{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.profile__fio{
+    font-size: 40px;
+}
+.profile__membership{
+    margin-bottom: 2.2%;
+    font-size: 20px;
+}
+.profile__university{
+    font-size: 22px;
+}
+.profile__status{
+    font-size: 24px;
+    max-width: 85%;
+}
+.profile__avatar{
+    display: block;
+    justify-content: center;
+    margin: auto 0;
+}
+
+/* -----------Список предлагаемых услуг----------- */
+.suggestion{
+    font-size: 30px;
+    margin-left: 3%;
+    color: #1C768F; 
+}
+.services{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-bottom: 5.4%;
+}
+.options{
+    margin-bottom: 2.5%;
+}
+
+/* ---------Кнопка "отправить заявку"--------------*/
+.profile__sending{
+    height: 5.3%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif; 
+    font-style: normal;
+    padding: 9px 19px 9px 19px;
+    background: #FBF3F2;
+    border: 2px solid #1C768F;
+    border-radius: 50px;
+    color: #FA991C;
+    float: right; 
+    margin-left: 85%;
+}
+.post{
+    color: #1C768F;
+}
+
+
+/* -------------Основной контент------------ */
+.profile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    max-width: 82%;
+    min-height: 90%;  
+    margin-left: 9.06%;
+    margin-right: 9.06%;
+    margin-top: 24px;
+}
+
+/* -----------------Футер------------------- */
+
+.footer{
+    height: 100px;
+    background:  #FA991C;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 100px;
+}
+
+.mail{
+    text-decoration: underline;
+}
+
+
+/* -----------ОФормление радио-кнопок----------- */
+.profile__radio input[type=radio] {
+	display: none;
+}
+
+.profile__radio label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 50px;
+    margin-right: 5px;
+    margin-bottom: 20px; 
+	user-select: none;
+}
+.profile__radio label:before {
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	background: url(/student_for_pupil/img_profile/unchecked.svg) 0 0 no-repeat;
+}
+
+/* Checked */
+.profile__radio input[type=radio]:checked + label:before {
+	background: url(/student_for_pupil/img_profile/checked.svg) 0 0 no-repeat;
+}
+ 
+/* Hover */
+.profile__radio label:hover:before {
+	filter: brightness(120%);
+}
+
+/* -----------------Адаптив---------------- */
+@media (max-width: 1682px){
+    .profile__sending{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1100px){
+    .profile__sending{
+        font-size: 16px;
+    }
+    .header__title{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px){
+   .footer{
+       font-size: 20px;
+   }
+}
+
+@media (max-width: 530px){
+    .footer{
+        font-size: 20px;
+    }
+    .header__title{
+        font-size: 15px;
+    }
+ }

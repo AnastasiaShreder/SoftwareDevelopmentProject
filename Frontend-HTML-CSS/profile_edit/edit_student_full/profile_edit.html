@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header_footer_navig.css">
+    <link rel="stylesheet" href="css/profile-edit-info.css">
+    <link rel="stylesheet" href="css/profile-edit-price.css">
+    <link rel="stylesheet" href="css/profile-edit-adaptive.css">
+    <title>Students4Students</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo" title="logo">
+            <img src='/edit_student_full/img/logo.svg' height=110px>
+        </div>
+        <div class="header__title">
+            <h1>Students4Students</h1>
+        </div>
+    </header>
+    <div class="navigation">
+        <div class="navigation__icon">
+            <a href="https://yandex.ru/"><img src='/edit_student_full/img/profile.svg'></a>
+        </div>
+        <div class="navigation__icon">
+            <img src='/edit_student_full/img/search.svg'>
+        </div>
+        <div class="navigation__icon">
+            <img src='/edit_student_full/img/schedule_fix.svg'>
+        </div>
+        <div class="navigation__icon">
+            <img src='/edit_student_full/img/messages.svg'>
+        </div>
+        <!-- <div class="navigation__icon">
+            <img src='/edit_student_full/img/calendar1.svg'>
+        </div> -->
+    </div>
+
+    <div class="profile-edit">
+        <div class="profile-edit__main-info">
+            <div class="profile-edit__avatar">
+                <img src='/edit_student_full/img/avatar.svg'>
+
+                <div class="profile-edit__avatar__add">
+                    <img src='/edit_student_full/img/add.svg'>
+                </div>
+            </div>
+
+            <div class="person-info">
+                <div class="person-info__column-1">
+                    <div class="person-info__first-name input-field">
+                        ИМЯ
+                        <input class="input-info input-info-1" type="text" size="40">
+                    </div>
+                    <div class="person-info__last-name input-field">
+                        ФАМИЛИЯ
+                        <input class="input-info input-info-2" type="text" size="40">
+                    </div>
+                    <div class="person-info__middle-name input-field">
+                        ОТЧЕСТВО
+                        <input class="input-info input-info-3" type="text" size="40">
+                    </div>
+                    <div class="person-info__university input-field">
+                        ВУЗ
+                        <input class="input-info input-info-4" type="text" placeholder="Например: МГУ, СПБГУ" size="40">
+                    </div>
+                    <div class="person-info__direction input-field">
+                        НАПРАВЛЕНИЕ
+                        <input class="input-info input-info-5" type="text" placeholder="Например: 38.03.01, Экономика, Химия"
+                            size="40">
+                    </div>
+                </div>
+                <div class="person-info__column-2">
+                    <div class="person-info__post">
+                        <p class="profile-edit__radio">
+                            <input id="radio-1" type="radio" name="radio" value="tutor">
+                            <label for="radio-1">СТАРШЕКЛАССНИК</label>
+                        </p>
+                        <p class="profile-edit__radio">
+                            <input id="radio-2" type="radio" name="radio" value="ready-labs">
+                            <label for="radio-2">АБИТУРИЕНТ</label>
+                        </p>
+                        <p class="profile-edit__radio">
+                            <input id="radio-3" type="radio" name="radio" value="ready-labs">
+                            <label for="radio-3">СТУДЕНТ</label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hello-message">
+            <p>ПРИВЕТСТВЕННОЕ СООБЩЕНИЕ</p>
+            <input class="message-field" type="text">
+        </div>
+        <div class="price-list">
+            <p>ПРАЙС-ЛИСТ</p>
+            <table class='price-table'>
+                <tr>
+                    <th class="price-table__column-1 title">услуга</th>
+                    <th class="price-table__column-2 title">стоимость</th>
+                </tr>
+                <tr>
+                    <td class="price-table__column-1">Занятия по математике для ЕГЭ</td>
+                    <td class="price-table__column-2">1000 р/час</td>
+                    <td class="price-list__delete-icon"><img src='/edit_student_full/img/delete.svg'></td>
+                </tr>
+                <tr>
+                    <td class="price-table__column-1"> </td>
+                    <td class="price-table__column-2"> </td>
+                    <td class="price-list__add-icon"><img src='/edit_student_full/img/add.svg'></td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="subjects">
+            <p>ПРЕДМЕТЫ ИЗУЧЕНИЯ
+                <div class="subjects-wrapper">
+                    <table class="inner-subjects-1">
+                        <tr>
+                            <td>Химия</td>
+                            <td><img src='/edit_student_full/img/cross.svg'></td>
+                        </tr>
+                    </table>
+                    <table class="inner-subjects-2">
+                        <tr>
+                            <td>Математика</td>
+                            <td><img src='/edit_student_full/img/cross.svg'></td>
+                        </tr>
+                    </table>
+                </div>
+
+            <input class="subjects__field" type="text" size="40">
+            </p>
+        </div>
+        <div>
+            <button class="delete__button" type="submit">
+                <span class="delete">Удалить профиль</span>
+            </button>
+            <button class="save__button" type="submit">
+                <span class="post">Сохранить изменения</span>
+            </button>
+        </div>
+    </div>
+    <footer class="footer">
+        Связаться с нами: <span class='mail'>Stud4orStud@gmail.com</span>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+@media (max-width:1611px){
+      .add-icon{
+            width: 10px;
+            height: auto;
+      }
+}
+
+@media (max-width: 990px){
+      .save__button{
+            font-size: 23px;
+      }
+      .delete__button{
+            font-size: 23px;
+      }
+}
+
+@media (max-width: 870px){
+      .save__button{
+            font-size: 20px;
+      }
+      .delete__button{
+            font-size: 20px;
+      }
+} 
+
+@media (max-width: 1500px){
+      .input-info-1{
+            margin-left: 89px;
+      }
+}

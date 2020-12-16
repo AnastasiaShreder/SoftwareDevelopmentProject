@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f1d8d5f-d5f1-43df-82fa-02be5989cd91" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jpkOoMjQMposUAqTiVfWnxBEQv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dialogs" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\polin\WebstormProjects\messages\svg" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="messages.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/messages/messages.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.messages.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f1d8d5f-d5f1-43df-82fa-02be5989cd91" name="Default Changelist" comment="" />
+      <created>1604508390190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604508390190</updated>
+      <workItem from="1604508391232" duration="601000" />
+      <workItem from="1604596847655" duration="613000" />
+      <workItem from="1604598855445" duration="4000" />
+      <workItem from="1604672276816" duration="11873000" />
+      <workItem from="1604752127666" duration="1415000" />
+      <workItem from="1604753584630" duration="34000" />
+      <workItem from="1604753641960" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1604753648579">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1604753648579" />
+    <state width="1898" height="364" key="GridCell.Tab.0.bottom" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.0.center" timestamp="1604696600644">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600644" />
+    <state width="1898" height="364" key="GridCell.Tab.0.left" timestamp="1604696600644">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600644" />
+    <state width="1898" height="364" key="GridCell.Tab.0.right" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.1.bottom" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.1.center" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.1.left" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.1.right" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.2.bottom" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.2.center" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.2.left" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.2.right" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.3.bottom" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.3.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.3.center" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.3.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.3.left" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.3.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state width="1898" height="364" key="GridCell.Tab.3.right" timestamp="1604696600645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="364" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604696600645" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604677113156">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604677113156" />
+  </component>
+</project>

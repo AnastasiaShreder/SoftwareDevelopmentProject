@@ -1,0 +1,31 @@
+@media (max-width: 990px){
+      .save__button{
+            font-size: 23px;
+      }
+      .delete__button{
+            font-size: 23px;
+      }
+}
+
+@media (max-width: 870px){
+      .save__button{
+            font-size: 20px;
+      }
+      .delete__button{
+            font-size: 20px;
+      }
+} 
+@media (max-width: 1320px){
+     .input-info-1{
+      margin-left: 190px;
+     }
+     .person-info__column-2{
+           width: 100%;
+     }
+}
+
+@media (max-width: 1825px){
+      .input-info-1{
+       margin-left: 190px;
+      }
+ }

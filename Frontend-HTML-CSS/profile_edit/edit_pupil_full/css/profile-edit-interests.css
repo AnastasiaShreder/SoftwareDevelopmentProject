@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+/* Поле для выбора предметов */
+.subjects{
+    margin-bottom: 2%;
+    margin-left: 11%;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.subjects__field{
+    border: 1.5px solid #1C768F;
+	background: #FBF3F2;
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(141, 137, 137, 0.5);
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 1%;
+    height: 10%;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 80%;
+    outline: none;
+}
+.inner-subjects{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 6%;
+    margin-top: 1.9%;
+    border: 2px solid rgba(28, 118, 143, 0.5);
+}
+.interests-list{
+    margin-left: 11%;
+    font-weight: 700; 
+    font-size: 27px;
+    position: relative;
+}
+
+.interests-table{
+   width: 83%;
+   /* border-bottom: 1px solid #FA991C; */
+   margin-left: 3%;
+   border-collapse: collapse;
+   margin-bottom: 3%;
+}
+
+.interests-table__row{
+    border-bottom: 1px solid #FA991C ;
+    text-align: center;
+    font-size: 22px;
+    padding: 2%;
+}
+
+.interests-list__delete-icon{
+    position: absolute;
+    margin-right: 91%;
+    margin-top: 1%;
+}
+
+.interests-list__add-icon{
+    position: absolute;
+    margin-right: 91%;
+    margin-top: 5.0%;
+}
+
+/* Кнопки */
+.save__button{
+    width: 25%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif; 
+    font-style: normal;
+    padding: 9px 19px 9px 19px;
+    background: #FBF3F2;
+    border: 3px solid #FA991C;
+    border-radius: 50px;
+    color: #FA991C;
+    margin-left: 29%;
+}
+.post{
+    color:#032539;
+}
+
+.delete__button{
+    width: 25%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif; 
+    font-style: normal;
+    padding: 9px 19px 9px 19px;
+    background: #F15858;
+    border: 3px solid #F15858;
+    border-radius: 50px;
+    margin-left: 11%;
+}
+.delete{
+    color:#FBF3F2;
+}

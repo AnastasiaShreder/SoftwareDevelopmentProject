@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+
+/* ---------Кнопка "отправить заявку"--------------*/
+.profile__sending{
+    height: 5.3%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif; 
+    font-style: normal;
+    padding: 9px 19px 9px 19px;
+    background: #FBF3F2;
+    border: 2px solid #1C768F;
+    border-radius: 50px;
+    color: #FA991C;
+    float: center; 
+}
+.post{
+    color: #1C768F;
+}
+
+
+/* -------------Основной контент------------ */
+.profile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    min-height: 90%;  
+    margin-left: 9.06%;
+    margin-right: 9.06%;
+    margin-top: 24px;
+}
+
+.services{
+    width: 75%;
+}
+.services__list{
+    width: 100%;
+    height: 100%;
+    font-size: 19px;
+}
+ .services__price{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.services__row{ 
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 23%;
+}
+
+.profile__services{
+    text-align: center;
+}
+
+.profile__sending{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.services__line-upper{
+    width: 50%;
+    background-color: #FA991C;
+    height: 2px;
+}
+
+.services__line-lower{
+    width: 100%;
+    background-color: #FA991C;
+    height: 2px;
+}
+
