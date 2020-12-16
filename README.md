@@ -12,14 +12,14 @@
 ## Требования
 
 Требования представлены в формате UML-диаграммы:
-![UML-diagram](https://yadi.sk/i/LYxx9935X6OIKw)
+![UML-diagram](https://downloader.disk.yandex.ru/preview/2a5baa09a2fd0525c89893e16c2883ad9014b3cc304a783894bb99b37fe23e14/5fdaa504/nGOEcJGE4BeiqiWXGrkTTGoRC_hDBBKz59coAZOnRtO6fnL3eAb7L7k2Zr1qve1fOPjwwM8DhT4DzHL_yQjVEQ%3D%3D?uid=0&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=1918x1004)
 
 ## Диаграммы
 
 1. System Context diagram
-![System Context Diagram](https://yadi.sk/i/7iYsmpzzsd3mLA)
+![System Context Diagram](https://downloader.disk.yandex.ru/preview/35384df12da2f87fcecdcfde58ff4d3c0466be9b762794d21e77169081202db8/5fdaa504/wsFeQSRfwow5-hg6wI-rlr9ccTf1Pov_LqN_cvH8kTbwTDn7XZ-G_XLIBbY9OhrWwOhezs5JFbVTtTXHH2T6Fw%3D%3D?uid=0&filename=sd.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=1918x1004)
 2. Container diagram
-![System Container Diagram](https://yadi.sk/i/2tlgk2AXNN_FJw)
+![System Container Diagram](https://downloader.disk.yandex.ru/preview/81e9e81d6b8264157bac255bea6bd3159bc310a44c0260228c17892238884fcc/5fdaa504/UJHWk-rvUPjquTW6EF280GoRC_hDBBKz59coAZOnRtPIpHXHUhnsDVs_36VamzOjvZqDajFDMIc8s8HQNBr2IQ%3D%3D?uid=0&filename=ddd.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=1918x1004)
 
 ## Кодирование и отладка
 
