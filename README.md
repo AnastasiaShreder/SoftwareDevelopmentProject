@@ -17,8 +17,11 @@
 ## Диаграммы
 
 1. System Context diagram
+
 ![System Context Diagram](/readme_img/SystemContextDiagram.png)
+
 2. Container diagram
+
 ![System Container Diagram](/readme_img/ContainerDiagram.png)
 
 ## Кодирование и отладка
